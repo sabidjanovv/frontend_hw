@@ -44,13 +44,11 @@ body {
   font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #1F2E35;
-  /* border: 1px solid #000; */
 }
 
 .navbar__social {
   display: flex;
   gap: 24px;
-  /* border: 1px solid #000; */
 }
 
 .navbar__menu {
@@ -75,7 +73,6 @@ body {
   justify-content: center;
   gap: 24px;
   flex-direction: column;
-  /* border: 1px solid #000; */
 }
 
 .hero__title {
@@ -125,7 +122,6 @@ body {
   width: 50%;
   margin-right: 50px;
   flex-direction: column;
-  /* border: 1px solid #0015ff; */
 }
 
 .hero2__title {
@@ -154,13 +150,12 @@ body {
 .products h2 {
   text-align: center;
   margin-bottom: 20px; 
-  font-size: 2em; /* Matn o'lchami */
-  color: #333; /* Matn rangi (ixtiyoriy) */
+  font-size: 2em; 
+  color: #333; 
 }
 
 .card {
   background: #fff;
-  /* border: 1px solid #ddd; */
   border-radius: 5px;
   overflow: hidden;
   text-align: center;
@@ -191,19 +186,62 @@ body {
     margin-bottom: 1rem;
 }
 
-.info__wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 50px 0;
-    /* background-color: #f6f6f6; */
-    border: 1px solid #000;
+.contact__wrapper {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
 }
 
-.info__title{
-    font-size: 2em;
-    color: #333;
+.contact__contact {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 80px;
+}
+
+.contact__address {
+  font-size: 18px;
+  width: 300px;
+}
+
+.contact__address p .address__title {
+  color: #263238;
+  font-weight: 900;
+  line-height: 21px;
+}
+
+.contact__address .address__desc {
+  color: #263238;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.contact__contact p span {
+  font-weight: 900;
+  font-size: 24px;
+  color: #263238;
+  line-height: 28px;
+}
+
+.phone__desc {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 26px;
+}
+
+.footer {
+  background: #ee4248;
+  height: 64px;
+  color: #fff;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 @media (max-width: 1200px) {
