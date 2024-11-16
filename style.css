@@ -110,7 +110,7 @@ body {
   align-items: center;
   gap: 17px;
   width: 100%;
-  margin: 51px 0 200px 0;
+  margin: 51px 0 100px 0;
   background-color: #f6f6f6;
 }
 
@@ -143,6 +143,67 @@ body {
   font-size: 20px;
   line-height: 28.94px;
   color: #30444e;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 20px; 
+  font-size: 2em; /* Matn o'lchami */
+  color: #333; /* Matn rangi (ixtiyoriy) */
+}
+
+.card {
+  background: #fff;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  padding: 3rem;
+}
+
+.card img {
+  width: 30%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 1rem 0;
+  color: #ee4248;
+}
+
+.card button {
+  padding: 0.5rem 1rem;
+  background: #ee4248;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card p{
+    color: #30444E;
+    margin-bottom: 1rem;
+}
+
+.info__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+    /* background-color: #f6f6f6; */
+    border: 1px solid #000;
+}
+
+.info__title{
+    font-size: 2em;
+    color: #333;
 }
 
 @media (max-width: 1200px) {
