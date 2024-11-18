@@ -102,6 +102,16 @@ body {
   border: none;
 }
 
+.hero__btn:hover {
+  width: 161px;
+  height: 53px;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 20px;
+  color: #ee4248;
+  border: 1px solid #ee4248
+}
+
 .hero2__wrapper {
   display: flex;
   align-items: center;
@@ -179,6 +189,15 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.card button:hover {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #ee4248;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #ee4248
 }
 
 .card p{
